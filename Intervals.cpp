@@ -1,3 +1,9 @@
+/////////Mitchell Booth///////////
+//////// Project 1 Part B////////
+
+////////Intervals.cpp////////
+
+
 #include<iostream>
 #include<cmath>
 #include<algorithm>
@@ -765,9 +771,9 @@ int main()
 
 					else
 						{
-							double a, b, c, d;
+							double a, b, c, d; ////// calculations for range of cartesian integers
 
-							a = std::ceil(immediate[0]);
+							a = std::ceil(immediate[0]); /////use ceil and floor to convert doubles from whole numbers
 							b = std::floor(immediate[1]);
 							c = std::ceil(interval_parameters[0]);
 							d = std::floor(interval_parameters[1]);
@@ -796,7 +802,7 @@ int main()
 
 								std::cout << std::endl;
 								print(immediate[0],immediate[1]);
-								std::cout << std::endl;
+								std::cout << std::endl; ////////
 
 							}
 
